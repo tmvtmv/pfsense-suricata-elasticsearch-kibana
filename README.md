@@ -1,4 +1,4 @@
-# Sending Suricata events from your pfSense firewall to Elasticsearch and Kibana using filebeat
+# Sending Suricata events of your pfSense firewall to Elasticsearch and Kibana using filebeat
 
 ## Notice
 
@@ -20,7 +20,7 @@
     E.g: ssh admin@192.168.10.1
 
 * Select "Option 8: Shell"
-* Enable the regular FreeBSD repository
+* Enable the regular FreeBSD repository:
 
   `vi /usr/local/share/pfSense/pkg/repos/pfSense-repo.conf`
 
@@ -46,7 +46,7 @@
   }
   ```
 
-* Update repository contents
+* Update repository contents:
 
   `pkg update`
 
