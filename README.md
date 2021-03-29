@@ -14,7 +14,7 @@
 ## pfSense setup 
 
 * To enable you to copy-paste easier to pfSense:
-  * select `Option 14 to Enable SSH`
+  * On pfSense console: select `Option 14 to Enable SSH`
   * `ssh admin@[your-firewall-ip]`
 
     E.g: ssh admin@192.168.10.1
